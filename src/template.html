@@ -3,16 +3,248 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
+        <title>Lago · Lakeside Bistro</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Nunito:wght@400;600;700;800&display=swap"
+            rel="stylesheet"
+        />
     </head>
     <body>
         <header>
             <nav>
-                <button class="tab"></button>
-                <button class="tab"></button>
-                <button class="tab"></button>
-                <button class="tab"></button>
+                <span class="logo">Lago</span>
+                <div class="nav-tabs">
+                    <button class="tab active">Home</button>
+                    <button class="tab">Menu</button>
+                    <button class="tab">About Us</button>
+                    <button class="tab">Contact</button>
+                </div>
             </nav>
         </header>
+        <div id="content">
+            <div id="home">
+                <div id="welcome">
+                    <h1>Welcome to the <i>Lago</i></h1>
+                    <p>
+                        Experience fresh, regional and seasonal ingredients in a
+                        modern and elegant way
+                    </p>
+                    <div class="cta">
+                        <button>Reserve</button>
+                        <button>Menu</button>
+                    </div>
+                    <div class="meta-row">
+                        <p>Tue–Sun from 11am</p>
+                        <p>Closed on Mondays</p>
+                        <p>Laketown, By The Lake 4</p>
+                        <p>
+                            Limited parking, but lots of space for your bicycle
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div id="menu">
+                <h2>Summer Menu</h2>
+                <div id="starters" class="category starters">
+                    <h3>Starters</h3>
+                    <div class="entry">
+                        <h4>Insalata Caprese</h4>
+                        <p>
+                            Fresh tomatoes, homemade mozzarella, and basil
+                            drizzled with balsamic glaze, served with a slice of
+                            fresh ciabatta
+                        </p>
+                        <p>$ 6.50</p>
+                    </div>
+                    <div class="entry">
+                        <h4>Minestrone</h4>
+                        <p>
+                            Bright summer soup with a selection of vegetables,
+                            herbs and citrus flavours in a bright tomato broth,
+                            served with a slice of fresh ciabatta
+                        </p>
+                        <p>$ 8</p>
+                    </div>
+                    <div class="entry">
+                        <h4>Antipasti</h4>
+                        <p>
+                            Sun-dried tomatoes, Aubergine, Olives, a selection
+                            of cheeses, cured meats and sausages, served with
+                            herby focaccia and olive oil
+                        </p>
+                        <p>$ 10</p>
+                    </div>
+                </div>
+                <div id="main_course" class="category main-course">
+                    <h3>Main Courses</h3>
+                    <div class="entry">
+                        <h4>Tagliolini Cacio e Pepe</h4>
+                        <p>
+                            Fresh handmade pasta tossed in a wheel of parmigiano
+                            reggiano with freshly toasted black pepper
+                        </p>
+                        <p>$ 16</p>
+                    </div>
+                    <div class="entry">
+                        <h4>Guancea di manzo</h4>
+                        <p>
+                            Calfs cheek, braised in a rich red wine sauce with
+                            potato puree, roasted vegetables and a slice of
+                            fresh ciabatta
+                        </p>
+                        <p>$ 18.50</p>
+                    </div>
+                    <div class="entry">
+                        <h4>Duetto alla griglia</h4>
+                        <p>
+                            Sea bream and sea bass filets, grilled to perfection
+                            and served with a side of herby focaccia and a
+                            fennel salad
+                        </p>
+                        <p>$ 22</p>
+                    </div>
+                </div>
+                <div id="pizza" class="category pizza">
+                    <h3>Pizza</h3>
+                    <div class="entry">
+                        <h4>Margherita</h4>
+                        <p>
+                            Classic Margherita pizza with fresh tomatos,
+                            homemade mozzarella, basil and parmegiano
+                        </p>
+                        <p>$ 14</p>
+                    </div>
+                    <div class="entry">
+                        <h4>Diavola</h4>
+                        <p>
+                            Classic Diavola pizza with tomato, mozzarella,
+                            pepperoncini and spicy salsiccia
+                        </p>
+                        <p>$ 16</p>
+                    </div>
+                    <div class="entry">
+                        <h4>Sardegna</h4>
+                        <p>
+                            Classic Sardegna pizza with tomato, mozzarella,
+                            olives, capers and sardines
+                        </p>
+                        <p>$ 17.50</p>
+                    </div>
+                </div>
+                <div id="dessert" class="category dessert">
+                    <h3>Dessert</h3>
+                    <div class="entry">
+                        <h4>Panna Cotta</h4>
+                        <p>
+                            Classic Panna Cotta with fresh cream, vanilla and a
+                            hint of lemon
+                        </p>
+                        <p>$ 4.50</p>
+                    </div>
+                    <div class="entry">
+                        <h4>Gelato</h4>
+                        <p>
+                            Three scoops of our classic Gelato with fresh cream,
+                            vanilla, cioccolato and pistachio
+                        </p>
+                        <p>$ 6</p>
+                    </div>
+                    <div class="entry">
+                        <h4>Tiramisu</h4>
+                        <p>
+                            Classic Tiramisu with layers of sponge cake drenched
+                            in amaretto and coffee, mascarpone cheese and a
+                            cacao and pistachio dusting
+                        </p>
+                        <p>$ 10</p>
+                    </div>
+                </div>
+                <div id="drinks" class="category drinks">
+                    <h3>Drinks</h3>
+                    <p>The Lago offers free water with every meal</p>
+                    <div class="entry">
+                        <h4>Birra</h4>
+                        <p>
+                            Our signature beer, made with the finest ingredients
+                        </p>
+                        <p>$ 4.50</p>
+                    </div>
+                    <div class="entry">
+                        <h4>Sprizz</h4>
+                        <p>
+                            A fresh spritz to your liking - Bitter or Limoncello
+                        </p>
+                        <p>$ 8.50</p>
+                    </div>
+                    <div class="entry">
+                        <h4>Vino</h4>
+                        <p>
+                            A fine selection of red and white wines from the
+                            vineyards of the region. Feel free to ask about our
+                            special offers. Served with a bottle of water.
+                        </p>
+                        <p>$ 4 (feel free to ask for the bottle)</p>
+                    </div>
+                </div>
+                <p>
+                    Please inform us on any allergies or dietary restrictions
+                    you may have. We are happy to accommodate your needs.
+                </p>
+            </div>
+            <div id="about">
+                <h3>About Us</h3>
+                <h2>Fresh - Seasonal - Local</h2>
+                <p>
+                    We are a local restaurant that serves fresh, seasonal, and
+                    regional ingredients. Our menu features a variety of dishes
+                    all prepared with love and care, depending on the season and
+                    the produce available to us. We are committed to providing
+                    the best possible dining experience for our customers.
+                </p>
+                <p>
+                    To serve you with the freshest ingredients, we source our
+                    produce from local farmers and suppliers. We believe in
+                    sustainable farming practices and are proud to be a local
+                    business.
+                </p>
+                <p>
+                    If you have any questions or would like to make a
+                    reservation, please don't hesitate to contact us. We look
+                    forward to serving you and would greatly appreciate your
+                    feedback and referral after your visit.
+                </p>
+            </div>
+            <div id="contact">
+                <h3>Contact Us</h3>
+                <p>
+                    We would love to hear from you! Please don't hesitate to
+                    reach out to us with any questions or feedback you may have.
+                </p>
+                <div class="contact-cards">
+                    <div id="address">
+                        <h4>Address</h4>
+                        <p>By The Lake 4, Laketown</p>
+                    </div>
+                    <div id="phone">
+                        <h4>Phone</h4>
+                        <p>+1 (555) 123-4567</p>
+                    </div>
+                    <div id="email">
+                        <h4>Email</h4>
+                        <p>info@laketownrestaurant.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p></p>Lago — Lakeside Bistro</p>
+            <p>
+                By The Lake 4 · Laketown · Open Tue–Sun from 11am · Closed
+                Mondays
+            </p>
+            <p>Made with ☕ and lake views</p>
+        </footer>
     </body>
 </html>

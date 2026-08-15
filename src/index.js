@@ -4,6 +4,7 @@ import createAbout from "./about.js";
 import createContact from "./contact.js";
 
 const content = document.querySelector("#content");
+createHome();
 
 document.querySelector("#home-btn").addEventListener("click", () => {
   content.innerHTML = "";
